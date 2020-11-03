@@ -12,6 +12,16 @@ Python library and CLI template.
 | Organize imports (**isort**) | ✔ | ✔ | `make formats/checks` |
 | Run tests (**pytest/doctest**) | ✔ | ✔ | `make tests` |
 
+## Usage
+
+1. Click `Use this template` in GitHub
+2. Rename `mypkg` to your package using the following command
+
+```sh
+$ export PKG_NAME=<YOUR PACKAGE NAME>
+$ git mv mypkg ${PKG_NAME}
+$ for f in $(git grep mylib | cut -d ":" -f 1); do sed -i -e "s/mypkg/${PKG_NAME}/" ${f} ; done 
+```
 
 ## Interpreter settings
 This project uses virtualenv in `<repo-root>/venv`. Please initialize it if not exists.
