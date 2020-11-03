@@ -14,8 +14,11 @@ Python library and CLI template.
 
 
 ## Interpreter settings
-This project uses virtualenv in `<repo-root>/venv` (default in PyCharm).
-If you use VSCode, please manually create it.
+This project uses virtualenv in `<repo-root>/venv`. Please initialize it if not exists.
+
+- **PyCharm**: `Preferences` => `Python Interpreter` => `Add` ([JetBrains Help](https://www.jetbrains.com/help/pycharm/configuring-python-interpreter.html))
+- **VSCode**: Manually prepare it or run `$ make venv`
+
 
 ## License
 
