@@ -20,13 +20,12 @@
     "python.testing.pytestEnabled": true,
     "python.formatting.provider": "black",
     "python.linting.flake8Args": [
-        "--max-line-length", "88"
+        "--config", "pyproject.toml"
     ],
     "python.linting.flake8Enabled": true,
     "python.linting.mypyEnabled": true,
     "python.linting.mypyArgs": [
-        "--strict",
-        "--ignore-missing-imports"
+        "--config", "pyproject.toml"
     ],
     "python.pythonPath": "venv/bin/python3",
 }
