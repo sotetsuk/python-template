@@ -14,13 +14,19 @@ Python library and CLI template.
 
 ## Usage
 
-1. Click `Use this template` in GitHub
-2. Rename `mypkg` to your package using the following command
+### Rename `mypkg` to your package name
 
 ```sh
 $ export PKG_NAME=<YOUR PACKAGE NAME>
 $ git mv mypkg ${PKG_NAME}
 $ for f in $(git grep mypkg | cut -d ":" -f 1); do sed -i "" -e "s/mypkg/${PKG_NAME}/" ${f} ; done 
+```
+
+### Rename `mycmd` to your command name
+
+```sh
+$ export CMD_NAME=<YOUR COMMAND NAME>
+for f in $(git grep mycmd | cut -d ":" -f 1); do sed -i "" -e "s/mycmd/${PKG_NAME}/" ${f} ; done
 ```
 
 ## Interpreter settings
