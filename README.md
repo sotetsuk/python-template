@@ -5,9 +5,9 @@ Python library and CLI template.
 
 ## Features
 
-|   | PyCharm | [VSCode](.vscode/settings.json) | [Commands](Makefile) |
+|   | PyCharm | VSCode | Commands |
 |:---|:---:|:---:|:---|
-| Strict type check (**mypy**) |   | ✔ | `make checks` |
+| Strict type check (**mypy**) | ✔ | ✔ | `make checks` |
 | Formatting (**black**) | ✔ | ✔ | `make formats/checks` |
 | Organize imports (**isort**) | ✔ | ✔ | `make formats/checks` |
 | Run all tests (**pytest/doctest**) |  |  | `make tests` |
