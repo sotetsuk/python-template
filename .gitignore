@@ -1,4 +1,5 @@
 .idea/*
+!.idea/watcherTasks.xml
 *.iml
 *.pyc
 build/*

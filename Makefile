@@ -14,7 +14,7 @@ formats:
 checks:
 	black mylib --check --diff
 	blackdoc mylib --check
-	flake8 mylib
+	flake8 mylib --max-line-length 88
 	mypy mylib --strict --ignore-missing-imports
 	isort mylib --check --diff
 
