@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="",
+    name="mypkg",
     version="0.0.1",
     description="",
     author="",
