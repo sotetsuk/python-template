@@ -14,6 +14,12 @@ Python library and CLI template.
 
 ## Usage
 
+1. Click `Use this template` in [github.com/sotetsuk/python-template](https://github.com/sotetsuk/python-template)
+2. Write up `setup.py`
+    - If you do not create CLI, please remove `entory_points`
+3. Rename Python package name following the instruction below
+4. For CLI usage, please rename command name folowing the instruction below
+
 ### Rename `mypkg` to your package name
 
 ```sh
