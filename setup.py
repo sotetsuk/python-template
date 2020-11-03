@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="python-template",
+    name="",
     version="0.0.1",
-    description="Python template",
-    author="sotetsuk",
-    url="https://github.com/sotetsuk/python-template",
-    author_email="koyamada-s@sys.i.kyoto-u.ac.jp",
+    description="",
+    author="",
+    url="",
+    author_email="",
     license="MIT",
     install_requires=["pytest", "black", "blackdoc", "flake8", "mypy", "isort"],
     packages=find_packages(),
