@@ -14,8 +14,8 @@ formats:
 checks:
 	black mylib --check --diff
 	blackdoc mylib --check
-	flake8 mylib --max-line-length 88
-	mypy mylib --strict --ignore-missing-imports
+	flake8 --config pyproject.toml mylib 
+	mypy --config pyproject.toml mylib
 	isort mylib --check --diff
 
 install:
