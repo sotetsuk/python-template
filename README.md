@@ -8,8 +8,8 @@ Python library and CLI template.
 |   | PyCharm | [VSCode](.vscode/settings.json) | [Commands](Makefile) |
 |:---|:---:|:---:|:---|
 | Strict type check (**mypy**) |   | ✅ | `make checks` |
-| Formatting (**black/flake8**) |   | ✅ | `make formats|checks` |
-| Organize imports (**isort**) |   | ✅ | `make formats|checks` |
+| Formatting (**black/flake8**) |   | ✅ | `make formats/checks` |
+| Organize imports (**isort**) |   | ✅ | `make formats/checks` |
 | Run all tests (**pytest/doctest**) |  |  | `make tests` |
 
 
