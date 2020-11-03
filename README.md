@@ -20,7 +20,7 @@ Python library and CLI template.
 ```sh
 $ export PKG_NAME=<YOUR PACKAGE NAME>
 $ git mv mypkg ${PKG_NAME}
-$ for f in $(git grep mylib | cut -d ":" -f 1); do sed -i -e "s/mypkg/${PKG_NAME}/" ${f} ; done 
+$ for f in $(git grep mypkg | cut -d ":" -f 1); do sed -i "" -e "s/mypkg/${PKG_NAME}/" ${f} ; done 
 ```
 
 ## Interpreter settings

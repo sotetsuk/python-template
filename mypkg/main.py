@@ -1,7 +1,7 @@
 import argparse
 import sys
 
-from mylib.mymodule import fizzbuzz
+from mypkg.mymodule import fizzbuzz
 
 
 def main() -> None:

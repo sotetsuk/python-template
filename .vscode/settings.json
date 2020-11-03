@@ -12,7 +12,7 @@
         },
     },
     "python.testing.pytestArgs": [
-        "mylib",
+        "mypkg",
         "--doctest-modules",
     ],
     "python.testing.unittestEnabled": false,

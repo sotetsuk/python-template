@@ -11,16 +11,16 @@ clean:
 	find . -name "*pycache*" | xargs rm -rf
 
 formats:
-	black mylib
-	blackdoc mylib
-	isort mylib
+	black mypkg
+	blackdoc mypkg
+	isort mypkg
 
 checks:
-	black mylib --check --diff
-	blackdoc mylib --check
-	flake8 --config pyproject.toml mylib 
-	mypy --config pyproject.toml mylib
-	isort mylib --check --diff
+	black mypkg --check --diff
+	blackdoc mypkg --check
+	flake8 --config pyproject.toml mypkg 
+	mypy --config pyproject.toml mypkg
+	isort mypkg --check --diff
 
 install:
 	python3 setup.py install
