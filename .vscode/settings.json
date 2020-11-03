@@ -28,4 +28,5 @@
         "--strict",
         "--ignore-missing-imports"
     ],
+    "python.pythonPath": "venv/bin/python3",
 }
