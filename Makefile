@@ -1,5 +1,9 @@
 .PHONY: clean formats checks install uninstall test pypi
 
+venv:
+	which python3
+	python3 -m venv venv
+
 clean:
 	rm -rf build
 	rm -rf dist
