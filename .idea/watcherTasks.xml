@@ -42,7 +42,7 @@
       <envs />
     </TaskOptions>
     <TaskOptions isEnabled="true">
-      <option name="arguments" value="$FilePath$ --strict --ignore-missing-imports" />
+      <option name="arguments" value="$FilePath$ --config $ProjectFileDir$/pyproject.toml" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
       <option name="exitCodeBehavior" value="ERROR" />
