@@ -31,4 +31,5 @@
         "--config", "pyproject.toml"
     ],
     "python.pythonPath": "venv/bin/python3",
+    "python.terminal.activateEnvInCurrentTerminal": true,
 }
