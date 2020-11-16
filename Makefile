@@ -18,7 +18,7 @@ formats:
 checks:
 	black mypkg --check --diff
 	blackdoc mypkg --check
-	flake8 --config pyproject.toml mypkg 
+	flake8 --config pyproject.toml --ignore E203,E501,W503 mypkg 
 	mypy --config pyproject.toml mypkg
 	isort mypkg --check --diff
 

@@ -22,7 +22,8 @@
     "python.testing.pytestEnabled": true,
     "python.formatting.provider": "black",
     "python.linting.flake8Args": [
-        "--config", "pyproject.toml"
+        "--config", "pyproject.toml",
+        "--ignore", "E203,E501,W503"
     ],
     "python.linting.flake8Enabled": true,
     "python.linting.mypyEnabled": true,
