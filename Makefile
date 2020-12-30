@@ -26,7 +26,7 @@ install:
 	python3 setup.py install
 
 uninstall:
-	python3 -m pip uninstall mycmd -y
+	python3 -m pip uninstall mypkg -y
 
 tests:
 	python3 -m pytest --doctest-modules
