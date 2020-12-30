@@ -17,5 +17,5 @@ ensure_newline_before_comments = true
 line_length = 88
 
 [mypy]
-strict = 1
+# strict = 1
 ignore_missing_imports = 1

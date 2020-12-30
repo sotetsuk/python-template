@@ -7,7 +7,7 @@ Python package and CLI template available on both PyCharm and Visual Studio Code
 
 |   | PyCharm | VSCode | Commands |
 |:---|:---:|:---:|:---|
-| Strict type check (**mypy**) | ✔ | ✔ | `make checks` |
+| Type check | via PyCharm | via Pylance | `make checks` |
 | Formatting (**black**) | ✔ | ✔ | `make formats/checks` |
 | Organize imports (**isort**) | ✔ | ✔ | `make formats/checks` |
 | Run tests (**pytest/doctest**) | ✔ | ✔ | `make tests` |
