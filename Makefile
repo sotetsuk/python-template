@@ -1,4 +1,4 @@
-.PHONY: clean formats checks install uninstall test pypi
+.PHONY: clean formats checks install uninstall tests pypi
 
 venv:
 	which python3
