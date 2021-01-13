@@ -8,7 +8,14 @@ setup(
     url="",
     author_email="",
     license="MIT",
-    install_requires=["pytest", "black", "blackdoc", "flake8", "mypy", "isort"],
+    install_requires=[
+        "pytest",
+        "black",
+        "blackdoc",
+        "flake8",
+        "mypy",
+        "isort",
+    ],
     packages=find_packages(),
     entry_points={"console_scripts": "mycmd = mypkg.main:main"},
     classifiers=[
