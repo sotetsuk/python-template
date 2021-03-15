@@ -1,4 +1,4 @@
-.PHONY: clean formats checks install uninstall tests pypi
+.PHONY: clean format check install uninstall test pypi
 
 venv:
 	which python3
@@ -10,12 +10,12 @@ clean:
 	rm -rf *.egg-info
 	find . -name "*pycache*" | xargs rm -rf
 
-formats:
+format:
 	black mypkg
 	blackdoc mypkg
 	isort mypkg
 
-checks:
+check:
 	black mypkg --check --diff
 	blackdoc mypkg --check
 	flake8 --config pyproject.toml --ignore E203,E501,W503 mypkg 
@@ -28,7 +28,7 @@ install:
 uninstall:
 	python3 -m pip uninstall mypkg -y
 
-tests:
+test:
 	python3 -m pytest --doctest-modules
 
 pypi:

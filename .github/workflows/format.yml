@@ -1,0 +1,23 @@
+name: format
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: formats
+      run: |
+        make formats
+    - uses: EndBug/add-and-commit@v4
+      with:
+        author_name: GitHub Actions
+        author_email: 41898282+github-actions[bot]@users.noreply.github.com
+        message: 'Apply format'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
