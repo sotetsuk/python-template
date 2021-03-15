@@ -11,13 +11,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: formats
+    - name: format
       run: |
-        make formats
+        make format
     - uses: EndBug/add-and-commit@v4
       with:
         author_name: GitHub Actions
         author_email: 41898282+github-actions[bot]@users.noreply.github.com
-        message: 'Apply format'
+        message: 'Apply formatter'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
