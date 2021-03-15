@@ -15,9 +15,6 @@ jobs:
       run: |
         pip3 install --upgrade pip
         make install
-    - name: checks
+    - name: test
       run: |
-        make checks
-    - name: tests
-      run: |
-        make tests
+        make test
