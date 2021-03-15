@@ -11,6 +11,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: install
+      run: |
+        pip3 install black blackdoc isort
     - name: format
       run: |
         make format
