@@ -1,5 +1,5 @@
-import argparse
 import sys
+import argparse
 
 from mypkg.mymodule import fizzbuzz
 
