@@ -11,11 +11,11 @@
         "editor.insertSpaces": true,
         "editor.codeActionsOnSave": {
           "source.organizeImports": true
-        },
+        }
     },
     "python.testing.pytestArgs": [
         "mypkg",
-        "--doctest-modules",
+        "--doctest-modules"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,
@@ -27,5 +27,5 @@
     ],
     "python.linting.flake8Enabled": true,
     "python.pythonPath": "venv/bin/python3",
-    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.terminal.activateEnvInCurrentTerminal": true
 }
