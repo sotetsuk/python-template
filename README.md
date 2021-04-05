@@ -26,7 +26,7 @@ Python package and CLI template available on both PyCharm and Visual Studio Code
 ```sh
 $ export PKG_NAME=<YOUR PACKAGE NAME>
 $ git mv mypkg ${PKG_NAME}
-$ for f in $(git grep mypkg | cut -d ":" -f 1); do sed -i "" -e "s/mypkg/${PKG_NAME}/" ${f} ; done 
+$ for f in $(git grep mypkg | cut -d ":" -f 1); do sed -i "" -e "s/mypkg/${PKG_NAME}/" ${f} ; done
 ```
 
 ### Rename `mycmd` to your command name
@@ -46,7 +46,7 @@ This project uses virtualenv in `<repo-root>/venv`. Please initialize it if not 
 ## Run all tests
 
 - **PyCharm**: [Run tests - Help | PyCharm](https://www.jetbrains.com/help/pycharm/performing-tests.html)
-  - Add `pytest` 
+  - Add `pytest`
   - `Script path`: `<project-root>/<your pkg name>`
   - `Parameters`: `--doctest-modules`
 - **VSCode**: [Python testing in Visual Studio Code](https://code.visualstudio.com/docs/python/testing)
