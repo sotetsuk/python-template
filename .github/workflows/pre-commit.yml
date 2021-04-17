@@ -9,5 +9,10 @@ jobs:
     - uses: actions/checkout@v2
     - uses: actions/setup-python@v2
     - uses: pre-commit/action@v2.0.2
+    - uses: EndBug/add-and-commit@v4
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        author_name: GitHub Actions
+        author_email: 41898282+github-actions[bot]@users.noreply.github.com
+        message: '[pre-commit] auto fixes'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
