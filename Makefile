@@ -19,7 +19,7 @@ check:
 	black mypkg --check --diff
 	blackdoc mypkg --check
 	flake8 --config pyproject.toml --ignore E203,E501,W503 mypkg
-	mypy --config pyproject.toml mypkg
+	mypy --config pyproject.toml mypkg --ignore-missing-imports
 	isort mypkg --check --diff
 
 install:
