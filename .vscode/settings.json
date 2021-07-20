@@ -26,6 +26,6 @@
         "--ignore", "E203,E501,W503"
     ],
     "python.linting.flake8Enabled": true,
-    "python.pythonPath": "venv/bin/python3",
+    "python.defaultInterpreterPath": "${workspace}/venv/bin/python3",
     "python.terminal.activateEnvInCurrentTerminal": true
 }
