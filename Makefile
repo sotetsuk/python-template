@@ -5,9 +5,9 @@ venv:
 	python3 -m venv venv
 
 clean:
-	rm -rf build || echo "build is already deleted"
-	rm -rf dist || echo "dist is already deleted"
-	rm -rf *.egg-info || echo "egg-info is already deleted"
+	rm -rf build
+	rm -rf dist
+	rm -rf *.egg-info
 	find . -name "*pycache*" | xargs rm -rf
 
 format:
@@ -30,7 +30,3 @@ uninstall:
 
 test:
 	python3 -m pytest --doctest-modules
-
-pypi:
-	python3 setup.py register
-	python3 setup.py sdist bdist bdist_egg upload
